@@ -163,7 +163,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
         // Create a button
         hButton = CreateWindowW(
             L"BUTTON",  // Predefined class; Unicode assumed
-            L"Bewohner auslesen und in Zwischenablage kopieren",      // Button text
+            L"Bewohner auslesen und in die Zwischenablage kopieren",      // Button text
             WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,  // Styles
             20,         // x position
             20,         // y position
